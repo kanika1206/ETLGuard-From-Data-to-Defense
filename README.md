@@ -126,9 +126,10 @@ docker run -p 8000:8000 etlguard
 http://localhost:8000/docs
 
 
-## Demo
+## Demo 
 
-The application runs locally as a Dockerized FastAPI service.
+The application is deployed on Render.
+Here's the link for the same : https://etlguard-from-data-to-defense.onrender.com
 
 Available Endpoints
 
@@ -138,7 +139,6 @@ GET /train – Train the phishing detection model
 
 POST /predict – Predict whether a URL is phishing or legitimate
 
-Interactive API documentation is available via Swagger UI.
 
 ## Cloud Readiness Note
 
