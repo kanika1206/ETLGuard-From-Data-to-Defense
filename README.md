@@ -160,22 +160,23 @@ POST /predict – Predict whether a URL is phishing or legitimate
 ## Cloud Readiness Note
 
 The project is designed to be cloud-ready, but it currently runs locally using Docker. Cloud deployment components are optional and not required for running or demonstrating the project.
+
 =======
 | Method | Endpoint   | Description                        |
 | ------ | ---------- | ---------------------------------- |
 | GET    | `/`        | Health check                       |
 | GET    | `/train`   | Trigger model training             |
 | POST   | `/predict` | Predict phishing vs legitimate URL |
->>>>>>> 6ad6d95 (Update Readme)
+
 
 ## Cloud Readiness
 ETLGuard is cloud-ready by design.
 While currently deployed on Render, the system can be easily extended to other cloud platforms such as AWS, Azure, or GCP with minimal changes.
 
 ## Conclusion
-<<<<<<< HEAD
+
 
 ETLGuard demonstrates how modern MLOps practices can be applied to cybersecurity problems. By automating the complete ML lifecycle and exposing predictions through a structured API, the project provides a scalable and reproducible approach to phishing detection. Docker-based execution ensures consistency, while MLflow enables transparent experiment tracking, making the system suitable for further extension.
-=======
+
 ETLGuard demonstrates how modern MLOps and ETL principles can be applied to cybersecurity challenges. By automating the complete ML lifecycle from raw data ingestion to real time prediction the project provides a scalable, reproducible, and production ready approach to phishing detection.
->>>>>>> 6ad6d95 (Update Readme)
+
