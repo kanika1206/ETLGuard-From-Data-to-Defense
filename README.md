@@ -106,13 +106,13 @@ Each stage produces versioned artifacts to ensure traceability and reproducibili
 
 ### Tech Stack
 
-Language: Python
-Machine Learning: Scikit-learn, Pandas, NumPy
-MLOps: MLflow
-Backend: FastAPI, Uvicorn
-Database: MongoDB
-CI/CD: GitHub Actions
-Containerization: Docker
+     Language: Python
+     Machine Learning: Scikit-learn, Pandas, NumPy
+     MLOps: MLflow
+     Backend: FastAPI, Uvicorn
+     Database: MongoDB
+     CI/CD: GitHub Actions
+     Containerization: Docker
 
 
 ## API Endpoints
@@ -160,12 +160,6 @@ GET / – Health check
 GET /train – Train the phishing detection model
 
 POST /predict – Predict whether a URL is phishing or legitimate
-
-
-## Cloud Readiness Note
-
-The project is designed to be cloud-ready, but it currently runs locally using Docker. Cloud deployment components are optional and not required for running or demonstrating the project.
-
 
 
 
