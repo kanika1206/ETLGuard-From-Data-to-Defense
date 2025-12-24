@@ -117,7 +117,12 @@ Containerization: Docker
 
 ## API Endpoints
 
-<<<<<<< HEAD
+| Method | Endpoint   | Description                        |
+| ------ | ---------- | ---------------------------------- |
+| GET    | `/`        | Health check                       |
+| GET    | `/train`   | Trigger model training             |
+| POST   | `/predict` | Predict phishing vs legitimate URL |
+
 ## Technical Overview
 
 ### Backend Framework
@@ -161,12 +166,7 @@ POST /predict – Predict whether a URL is phishing or legitimate
 
 The project is designed to be cloud-ready, but it currently runs locally using Docker. Cloud deployment components are optional and not required for running or demonstrating the project.
 
-=======
-| Method | Endpoint   | Description                        |
-| ------ | ---------- | ---------------------------------- |
-| GET    | `/`        | Health check                       |
-| GET    | `/train`   | Trigger model training             |
-| POST   | `/predict` | Predict phishing vs legitimate URL |
+
 
 
 ## Cloud Readiness
