@@ -1,7 +1,7 @@
 ## 🛡️ ETLGuard: From Data to Defense
 
 ETLGuard is a production-grade, end-to-end MLOps pipeline for phishing website detection.
-It automates the complete machine learning lifecycle — from data ingestion and validation to model training, experiment tracking, and real-time prediction — following industry-inspired MLOps and ETL design principles.
+It automates the complete machine learning lifecycle from data ingestion and validation to model training, experiment tracking, and real-time prediction following industry inspired MLOps and ETL design principles.
 
 The project focuses on automation, reproducibility, modularity, and deployment readiness, making it suitable for real-world cybersecurity and ML engineering use cases.
 
@@ -33,7 +33,7 @@ Traditional rule-based phishing detection systems struggle to adapt to evolving 
      1. Manual and error-prone ML experimentation
      2. Lack of automated data validation
      3. Absence of data drift detection
-     4. Poor experiment tracking and        reproducibility
+     4. Poor experiment tracking and reproducibility
      5. Unstructured and non-scalable pipelines
 
 ETLGuard solves these challenges by implementing a fully automated, modular ETL + ML pipeline, ensuring consistent execution across environments using Docker.
@@ -52,7 +52,7 @@ ETLGuard is designed as a modular ML pipeline, inspired by real-world MLOps work
 
 ## High-Level Pipeline Flow
 
-Raw Data -> Data Ingestion ->Data Validation (Schema + Drift Detection) -> Data Transformation -> Model Training -> Model Training -> Model Evaluation -> Prediction API
+Raw Data -> Data Ingestion ->Data Validation (Schema + Drift Detection) -> Data Transformation -> Model Training -> Model Evaluation -> Prediction API
 
 Each stage produces versioned artifacts to ensure traceability and reproducibility.
 
@@ -135,32 +135,6 @@ Each stage produces versioned artifacts to ensure traceability and reproducibili
 - Docker ensures consistent runtime across systems
 
 ---
-
-## How to Run the Project Locally (Docker)
-
-```bash
-docker build -t etlguard .
-docker run -p 8000:8000 etlguard
-```
----
-
-## Swagger UI:
-http://localhost:8000/docs
-
-
-## Demo 
-
-The application is deployed on Render.
-Here's the link for the same : https://etlguard-from-data-to-defense.onrender.com
-
-Available Endpoints
-
-GET / – Health check
-
-GET /train – Train the phishing detection model
-
-POST /predict – Predict whether a URL is phishing or legitimate
-
 
 
 ## Cloud Readiness
