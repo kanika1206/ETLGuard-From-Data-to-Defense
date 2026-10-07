@@ -148,3 +148,6 @@ ETLGuard demonstrates how modern MLOps practices can be applied to cybersecurity
 
 ETLGuard demonstrates how modern MLOps and ETL principles can be applied to cybersecurity challenges. By automating the complete ML lifecycle from raw data ingestion to real time prediction the project provides a scalable, reproducible, and production ready approach to phishing detection.
 
+
+# License 
+This project was developed as a learning exercise while following a Udemy course by **Krish Naik**. It is not an original implementation. The project was created for educational purposes to understand and practice the concepts demonstrated in the course.
